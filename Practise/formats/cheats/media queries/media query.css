@@ -1,0 +1,35 @@
+
+
+/*Large Devices*/
+@media (min-width: 1200px) {
+
+}
+
+/* Medium Devices */
+@media (min-width: 992px) and (max-width: 1199) {
+    .col-lg-4 {
+      width: 33.33%;
+      float: left;
+      }
+  }
+  
+  /* Small Devices */
+  @media (min-width: 768px) and (max-width: 991px) {
+       .col-md-6 {
+      width: 50%;
+      float: left;
+    }
+    .col-md-12 {
+      width: 100%;
+      float: left;
+    }
+  }
+  
+  /* Extra Small Devices */
+  @media (max-width: 767px)  {
+    
+    .col-sx-12 {
+        float: left;
+      width: 100%;
+    }
+  }

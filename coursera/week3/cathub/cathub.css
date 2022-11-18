@@ -1,0 +1,62 @@
+body {
+    font-size: 16px;
+    color: fff;
+    font-family: 'Oxygen', sans-serif;
+  }
+  
+  /**header**/
+  nav {
+    background-color: black;
+  }
+  
+  div > a {
+    color: white;
+  }
+  
+  div a:hover {
+    color: rgb(0, 164, 252);
+  }
+  
+  h1 {
+    color: white;
+    background-color: black;
+    text-transform: lowercase;
+    text-align: center;
+    font: 12px;
+    padding: 10px;
+    
+  }
+  
+  h2 {
+    color:black;
+    padding: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+
+  .section {
+    color: black;
+    text-align: left;
+    clear: right;
+    padding: 20px;
+    margin: 20px;
+    background-color: gray;
+  }
+  
+  
+  nav {
+    position: fixed;
+  }
+  
+  
+  
+  /**
+  <a class="navbar-brand" href="https://github.com/azliep/coursera-test" target="_blank">
+  <img src="https://dinopixel.com/preload/0122/magic-cat.png" width="60" height="30" alt="Cat">
+  Cathub
+  </a>
+  **/

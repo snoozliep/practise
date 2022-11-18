@@ -1,0 +1,87 @@
+<!doctype html>
+<title>Example</title>
+<style>
+* {
+  box-sizing: border-box; 
+}
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+#main {
+  display: flex;
+  flex: 1;
+}
+#main > article {
+  flex: 1;
+}
+#main > nav, 
+#main > aside {
+  flex: 0 0 20vw;
+  background: maroon;
+}
+#main > nav {
+  order: -1;
+}
+  
+header {
+  color: white;
+  text-align: left;
+  font-size: 32px;
+  } 
+  
+header, footer {
+  background: white;
+  height: ;
+}
+header, footer, article, nav, aside {
+  padding: 1em;
+}
+  
+  ol, a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+  
+  header > a {
+    color: black;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  h2 {
+    background-color: black;
+    color: black;
+    
+</style>
+
+<body>
+  <header><a href="https://github.com/azliep/coursera-test" target="_blank"><img 		     src="https://dinopixel.com/preload/0122/magic-cat.png" width="60" height="30" alt="Cat">
+    CatHub</a></header>
+  
+  <h2>.</h2>
+  
+  <div id="main">
+    <article>Article</article>
+    
+    <nav>
+      Music:
+      <ol>
+        <li><a href="https://www.youtube.com/watch?v=ApYnfNlBmp4">Wala Nang Kumakatok</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ApYnfNlBmp4">Huminga</a></li>
+        <li><a href="https://www.youtube.com/watch?v=Eqhsz-vVvQ4">Die For You</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ApYnfNlBmp4">Zild</a></li>
+        <li><a href="https://www.youtube.com/watch?v=ApYnfNlBmp4">Zild</a></li>
+      </ol>
+    </nav>
+    
+    <aside>Aside</aside>
+  </div>
+  
+  <footer>Footer</footer>
+</body>
