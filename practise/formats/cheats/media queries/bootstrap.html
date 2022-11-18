@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!--Bootstrap-->
+
+<!--Media Queries Stacked-to-Horizontal-->
+
+<div class="row">
+    <div class="col-md-1">.col-md-1</div>
+    <div class="col-md-1">.col-md-1</div>
+    <div class="col-md-1">.col-md-1</div>
+    <div class="col-md-1">.col-md-1</div>
+    <div class="col-md-1">.col-md-1</div>
+    <div class="col-md-1">.col-md-1</div>
+    <div class="col-md-1">.col-md-1</div>
+    <div class="col-md-1">.col-md-1</div>
+    <div class="col-md-1">.col-md-1</div>
+    <div class="col-md-1">.col-md-1</div>
+    <div class="col-md-1">.col-md-1</div>
+    <div class="col-md-1">.col-md-1</div>
+  </div>
+  <div class="row">
+    <div class="col-md-8">.col-md-8</div>
+    <div class="col-md-4">.col-md-4</div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">.col-md-4</div>
+    <div class="col-md-4">.col-md-4</div>
+    <div class="col-md-4">.col-md-4</div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">.col-md-6</div>
+    <div class="col-md-6">.col-md-6</div>
+  </div>
+
+
+<!--Media Queries Fluid Container-->
+<div class="container-fluid">
+    <div class="row">
+      ...
+    </div>
+  </div>
+
+
+<!--Media Queries Mobile and Desktop-->
+<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+<div class="row">
+    <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+    <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  </div>
+  
+  <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+  <div class="row">
+    <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+    <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+    <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  </div>
+  
+  <!-- Columns are always 50% wide, on mobile and desktop -->
+  <div class="row">
+    <div class="col-xs-6">.col-xs-6</div>
+    <div class="col-xs-6">.col-xs-6</div>
+  </div>
+
+
+<!--Media Mobile, tablet, desktop-->
+<div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8">.col-xs-12 .col-sm-6 .col-md-8</div>
+    <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+    <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+    <!-- Optional: clear the XS cols if their content doesn't match in height -->
+    <div class="clearfix visible-xs-block"></div>
+    <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+  </div>
+
+
+<!--Media Queries Column Wrapping-->
+<div class="row">
+    <div class="col-xs-9">.col-xs-9</div>
+    <div class="col-xs-4">.col-xs-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+    <div class="col-xs-6">.col-xs-6<br>Subsequent columns continue along the new line.</div>
+  </div>
+
+  <!--Media Queries Responsive Column Resets-->
+  <div class="row">
+    <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+    <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+  
+    <!-- Add the extra clearfix for only the required viewport -->
+    <div class="clearfix visible-xs-block"></div>
+  
+    <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+    <div class="col-xs-6 col-sm-3">.col-xs-6 .col-sm-3</div>
+  </div>
+
+    <!--In addition to column clearing at responsive breakpoints, 
+        you may need to reset offsets, 
+        pushes, or pulls. See this in action in the grid example.-->
+        <div class="row">
+            <div class="col-sm-5 col-md-6">.col-sm-5 .col-md-6</div>
+            <div class="col-sm-5 col-sm-offset-2 col-md-6 col-md-offset-0">.col-sm-5 .col-sm-offset-2 .col-md-6 .col-md-offset-0</div>
+          </div>
+          
+          <div class="row">
+            <div class="col-sm-6 col-md-5 col-lg-6">.col-sm-6 .col-md-5 .col-lg-6</div>
+            <div class="col-sm-6 col-md-5 col-md-offset-2 col-lg-6 col-lg-offset-0">.col-sm-6 .col-md-5 .col-md-offset-2 .col-lg-6 .col-lg-offset-0</div>
+          </div>
+
+
+
+  <!--Media Queries Offsetting Columns-->
+  <div class="row">
+    <div class="col-md-4">.col-md-4</div>
+    <div class="col-md-4 col-md-offset-4">.col-md-4 .col-md-offset-4</div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+    <div class="col-md-3 col-md-offset-3">.col-md-3 .col-md-offset-3</div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">.col-md-6 .col-md-offset-3</div>
+  </div>
+
+  <!--You can also override offsets from lower grid tiers with .col-*-offset-0 classes.-->
+  <div class="row">
+    <div class="col-xs-6 col-sm-4">
+    </div>
+    <div class="col-xs-6 col-sm-4">
+    </div>
+    <div class="col-xs-6 col-xs-offset-3 col-sm-4 col-sm-offset-0">
+    </div>
+  </div>
+
+
+  <!--Media Queries Nesting Column-->
+  <div class="row">
+    <div class="col-sm-9">
+      Level 1: .col-sm-9
+      <div class="row">
+        <div class="col-xs-8 col-sm-6">
+          Level 2: .col-xs-8 .col-sm-6
+        </div>
+        <div class="col-xs-4 col-sm-6">
+          Level 2: .col-xs-4 .col-sm-6
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--Media Queries Column Ordering-->
+  <div class="row">
+    <div class="col-md-9 col-md-push-3">.col-md-9 .col-md-push-3</div>
+    <div class="col-md-3 col-md-pull-9">.col-md-3 .col-md-pull-9</div>
+  </div>
+
+
+  <!--Media Queries Column Wrapping-->
+
+
