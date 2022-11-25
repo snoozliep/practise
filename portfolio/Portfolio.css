@@ -1,0 +1,59 @@
+
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/space-game-background-with-landscape-planet_107791-1700.jpg?w=1380&t=st=1669385400~exp=1669386000~hmac=00c0d0dcbfebe7e38519360582983d7c7615e982cb2ea4c801636550e0332257)
+}
+
+.container {
+    column-width: 250px;
+    column-gap: 20px;
+  }
+
+  h1, h2 {
+    text-align: center;
+    color: white;
+  }
+  
+  .card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    background-color:rgb(37, 1, 51);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 0 0 1em 0;
+    color:white;
+  }
+
+  img {
+    height: 250px;
+    width: 250px;
+    margin: 5px 5px 5px 5px
+  }
+
+#hellcat img {
+  margin: 0px 5px 5px -5px;
+}
+
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header ul li{
+  list-style: none;
+  margin-left: 20px;
+}
+
+ul li a 
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+    list-style: none;
+}
+
+#gender {
+  height: 300px;
+  margin-top: 10px;
+}
