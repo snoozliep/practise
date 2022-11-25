@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <title>Simple Popup Box</title>
+      <link rel="stylesheet" type="text/css" href="popup.css">
+      </head>
+      <body>
+          <div class="container">
+            <div class="content">
+              <h2>Heading</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quas soluta magni ad inventore rem suscipit ex? Ratione, harum quidem! Deleniti similique quam ipsam itaque odio doloribus repudiandae quidem assumenda?</p>
+            </div>
+            <div class="toggleBtn"></div>
+          </div>
+
+          <script>
+            let toggleBtn = document.querySelector('.toggleBtn');
+            let container = document.querySelector('.container');
+            toggleBtn.onclick = function(){
+              container.classList.toggle('active')
+            }
+          </script>
+      </body>
+
+
+</html>
