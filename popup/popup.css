@@ -16,6 +16,12 @@ body {
     background: #1a242a;
 }
 
+.card {
+    color: white;
+    text-decoration: none;
+
+}
+
 .container {
     position:relative;
     width: 0px;
