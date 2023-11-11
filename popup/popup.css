@@ -19,8 +19,6 @@ body {
 .card {
     break-inside: avoid;
     page-break-inside: avoid;
-    background-color:rgb(37, 1, 51);
-    border: 2px solid rgb(0, 0, 0);
     padding: 10px;
     margin: 0 0 1em 0;
     color:white;
