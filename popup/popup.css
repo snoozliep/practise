@@ -16,7 +16,7 @@ body {
     background: #1a242a;
 }
 
-  .card {
+.card {
     break-inside: avoid;
     page-break-inside: avoid;
     background-color:rgb(37, 1, 51);
